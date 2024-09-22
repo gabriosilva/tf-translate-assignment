@@ -1,5 +1,9 @@
 # Modelo Transformer para Tradução de Português para Inglês
 
+[Notebook do Projeto](Tensorflow_Language_Comprehension_Tutorial_Assignment.ipynb)
+
+**TL;DR:** Este projeto utiliza um modelo Transformer em TensorFlow para traduzir frases do português para o inglês, focando em paralelização e captura de relações complexas. Os resultados mostram bom desempenho em frases curtas, mas com desafios em frases longas e maior tempo de treinamento. Melhorias podem ser alcançadas ajustando os hiperparâmetros e aplicando técnicas como **fine-tuning** e **regularizações** para otimizar a eficiência.
+
 ## Descrição
 Este projeto implementa um modelo Transformer utilizando TensorFlow para traduzir frases do português para o inglês. O dataset utilizado é o `ted_hrlr_translate/pt_to_en`, e o objetivo principal foi explorar as capacidades dos Transformers na tarefa de tradução.
 
@@ -20,3 +24,5 @@ O Transformer apresentou resultados satisfatórios em termos de paralelização 
 - Ajustar os hiperparâmetros para melhorar a performance em frases longas.
 - Explorar técnicas como **fine-tuning** em datasets maiores para potencializar a capacidade de generalização.
 - Implementar regularizações como **dropout** ou **early stopping** para mitigar overfitting e acelerar o treinamento.
+
+[Fonte do tutorial](https://www.tensorflow.org/text/tutorials/transformer?hl=pt-br)
